@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compartible" content="ie=edge">
+	<title>Turismo Mongaguá</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<script src="js/sprite.js"></script>
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body background=img/fundo.jpg>
+	<div class="container">	
+			<div clas="row">
+				<div class="col-md-1">
+					<a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+				</div>
+				<div class="col-md-11 menu">
+				<br>
+				<br>
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="hotelaria.html">HOTELARIA</a></li>
+						<li><a href="pontosturisticos.html">MINI GAME TURISTICOS</a></li>
+					</ul>
+					<br>
+					<br>
+				</div>
+			</div>	
+			
+
+	<div class="row">
+		<center>
+		<canvas width="1200" height="600"></canvas>
+		</center>
+	</div>
+
+
+	<dialog id="modZoo">
+				<div class="row">
+					<h3 class="titulo">Parque Ecológico</h3>
+				</div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/parqueecologico/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/parqueecologico/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/parqueecologico/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/parqueecologico/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">  O parque fica em frente à Plataforma de Pesca, na Avenida Mário Covas Júnior. </p>
+                 <p id="txtmod">o espaço possui viveiros com diversos tipos de pássaros, serpentário, aquários e </p>
+                 <p id="txtmod">espaço para cursos e palestras são distribuídos nos 5.500 m² de área do local.</p>
+
+                 </div>
+                 </div>
+	</dialog>
+
+	<dialog id="modSanta">
+				<div class="row">
+					<h3 class="titulo">Monumento da Santa</h3>
+				</div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/santa/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/santa/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/santa/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/santa/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>               
+                 <p id="txtmod">  Localizada, próximo à entrada de Mongaguá, uma trilha com escadaria, leva até a </p>
+                 <p id="txtmod">estátua de Nossa Senhora de Aparecida, padroeira da cidade, junto a um mirante. </p>
+                 <p id="txtmod">A estátua tem15 metros de altura e cerca de 2,5 toneladas.</p>
+                 </div>
+                 </div>
+	</dialog>
+
+	<dialog id="modAldeia">
+				<div class="row">
+					<h3 class="titulo">Aldeia dos Índios</h3>
+				</div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/aldeia/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/aldeia/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/aldeia/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/aldeia/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">  Existem duas aldeias indígenas em Mongaguá: Itaóca e Aguapeú, localizadas em</p>
+                 <p id="txtmod">reserva ambiental da Mata Atlântica. A comunidade indígena de Aguapeú concebeu</p>
+                 <p id="txtmod">o projeto “Jaguatareí Nhemboé – Caminhando e Aprendendo”.</p>
+                   
+                 </div>
+                 </div>
+	</dialog>
+
+	<dialog id="modDudusamba">
+				<div class="row">
+					<h3 class="titulo">Praça Dudu Samba</h3>
+				</div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pracadudusamba/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pracadudusamba/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pracadudusamba/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pracadudusamba/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+
+                 <p id="txtmod">A praça Dudu Samba fica à beira mar da praia central. No local se realizam todos os </p>
+                 <p id="txtmod">eventos degrande porte da cidade. Os eventos que se destacam são, a festa junina </p>
+                 <p id="txtmod">(entre junho e julho), e o Festão na Praia.</p>
+                 </div>
+                 </div>
+	</dialog>
+
+	<dialog id="modFeiraagenor">
+				<div class="row">
+					<h3 class="titulo">Feira de artesanatos Agenor</h3>
+				</div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feiraagenor/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feiraagenor/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feiraagenor/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feiraagenor/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">É um sofisticado complexo arquitetônico no centro da cidade. </p>
+                 <p id="txtmod">É dividido entre Praça de Alimentação e Área de artesanato, onde </p>
+                 <p id="txtmod">artistas plásticos e artesãos expõem suas obras e trabalhos. </p>
+  
+                 </div>
+                 </div>
+	</dialog>
+
+	<dialog id="modFeiracentro">
+				<div class="row">
+					<h3 class="titulo">Feira de artesanatos no Centro</h3>
+				</div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feirinha/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feirinha/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feirinha/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/feirinha/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">A feira de artesanato Central "Maria Del Carmem Mariño Telle" possui  </p> 
+                 <p id="txtmod">um sofisticado complexo de quiosques, com uma arquitetura arrojada, </p> 
+                 <p id="txtmod">onde artistas plásticos e artesãos expõem seus trabalhos.</p>
+  
+                 </div>
+                 </div>
+	</dialog>
+
+  <dialog id="modIgreja">
+        <div class="row">
+          <h3 class="titulo">Igreja no centro</h3>
+        </div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/igreja/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/igreja/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/igreja/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/igreja/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                    
+                 <p id="txtmod">Construída em 1949, em estilo colonial, a igreja possui a imagem de Nossa Senhora da Conceição Aparecida</p>
+                 <p id="txtmod">trazida da cidade de Aparecida do Norte, e imagens como a de São José, Santa Rita de Cássia, São Judas</p>
+                 <p id="txtmod"> Tadeu e Santa Luzia, além disso, destacam-se no templo os vitrais coloridos que representam</p>
+                 <p id="txtmod">cenas bíblicas como a “anunciação”, “nascimento de Jesus”, ”cristo redentor”, “Jesus rezando </p>
+                 <p id="txtmod">no horto das oliveiras” e a réplica da conhecida obra “Pietá” com Jesus no colo de sua mãe.</p>
+                 </div>
+                 </div>
+  </dialog>
+
+  <dialog id="modPlataforma">
+        <div class="row">
+          <h3 class="titulo">Plataforma de pesca</h3>
+        </div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/plataforma/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/plataforma/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/plataforma/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/plataforma/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">Em formato de ‘T’, a plataforma avança 400 metros mar adentro, </p>
+                 <p id="txtmod">com 2 braços de 86 metros cada lado. A plataforma atrai diariamente vários pescadores,</p>
+                 <p id="txtmod">com 2 braços de 86 metros cada lado. A plataforma atrai diariamente vários pescadores,</p>
+                 <p id="txtmod">que vão a procura das mais variadas espécies de peixes.</p>
+                 </div>
+                 </div>
+  </dialog>
+
+  <dialog id="modPocodasantas">
+        <div class="row">
+          <h3 class="titulo">Poço das antas</h3>
+        </div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pocodasantas/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pocodasantas/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pocodasantas/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/pocodasantas/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">Parque ecológico com piscinas naturais, trilhas e corredeiras.</p>
+                 <p id="txtmod">No local, há quiosques e churrasqueiras. Fica a 600 m do Centro, </p>
+                 <p id="txtmod">com acesso pela Rodovia Padre Manoel da Nóbrega.</p>
+                 </div>
+                 </div>
+  </dialog>
+
+  <dialog id="modRaulcortez">
+        <div class="row">
+          <h3 class="titulo">Centro cultural Raul Cortez</h3>
+        </div>
+
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/centrocultural/1.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/centrocultural/2.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/centrocultural/3.jpg" alt=""></label>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="imgcasa"><img id="mod" src="mapa/centrocultural/4.jpg" alt=""></label>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-12" id="p">
+                 <br>
+                 <p id="txtmod">Inaugurado em dezembro de 1996, Centro da vida cultural da cidade, seu nome </p>
+                 <p id="txtmod">em homenagem ao ator Raul Cortez ainda em vida. Oferece cursos gratuitos de musica, </p>
+                 <p id="txtmod">pintura, teclado, violão, violino, hip hop, ballet, Jazz, dança de rua, </p>
+                 <p id="txtmod">dança do ventre, teatro, dança de salão e coral, tudo para a população de Mongaguá</p>
+                 </div>
+                 </div>
+  </dialog>
+
+
+
+  
+
+
+
+	
+</div>
+
+</body>
+</html>
